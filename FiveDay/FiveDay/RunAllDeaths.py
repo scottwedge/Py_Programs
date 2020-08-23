@@ -16,7 +16,7 @@ def fullDay():
             if file == 'Hackathon':
                 print('Good Path')
     except FileNotFoundError:
-        error = messagebox.showerror("Error Occured",'WE COULD NOT FIND THE "HACKATHON" FOLDER IN THAT DIRECTORY')
+        error = messagebox.showerror("Error Occurred",'WE COULD NOT FIND THE "HACKATHON" FOLDER IN THAT DIRECTORY')
         exit()
     sys.path.insert(1, str(YourPath)+'Hackathon/FiveDay/Deaths')
     from FormatDay import full

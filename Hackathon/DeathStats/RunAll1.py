@@ -17,7 +17,7 @@ def full():
             if file == 'Hackathon':
                 print('Good Path')
     except FileNotFoundError:
-        error = messagebox.showerror("Error Occured",'WE COULD NOT FIND THE "HACKATHON" FOLDER IN THAT DIRECTORY')
+        error = messagebox.showerror("Error Occurred",'WE COULD NOT FIND THE "HACKATHON" FOLDER IN THAT DIRECTORY')
         exit()
     from DeathStats import GetFiles
     from FormatSecond import full

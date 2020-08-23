@@ -17,7 +17,7 @@ def full1():
                 print('good path')
 
     except FileNotFoundError:
-        error = messagebox.showerror("Error Occured",'WE COULD NOT FIND THE "HACKATHON" FOLDER IN THAT DIRECTORY')
+        error = messagebox.showerror("Error Occurred",'WE COULD NOT FIND THE "HACKATHON" FOLDER IN THAT DIRECTORY')
         exit()
     sys.path.insert(0, str(YourPath)+'Hackathon/RecoveredCases/recovered')
     from RecoveredCases import GetFiles

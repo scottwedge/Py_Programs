@@ -64,7 +64,7 @@ if start_y == True:
         cpu_vs_you = True
     if cpu_vs_you == False and cpu == False:
         if len(game_m) >= 5:
-            print(Fore.RED+"an error occured")
+            print(Fore.RED+"an error occurred")
             print(Fore.BLUE+"did you mean \'cpu vs you\'?[y/n] ")
             dym_a = (input())
             if dym_a ==  'y':
@@ -77,7 +77,7 @@ if start_y == True:
                 exit()
     if cpu_vs_you == False and cpu == False:
         if len(game_m) <= 3:
-            print(Fore.RED+'an error occured')
+            print(Fore.RED+'an error occurred')
             print(Fore.BLUE+"did you mean to say\'cpu\'[y/n] ")
             dym_b = (input())
             if dym_b == 'y':
